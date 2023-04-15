@@ -2,11 +2,15 @@ import numpy as np
 from sympy import  expand, Symbol
 import warnings
 
+
+
 np.seterr(all = 'warn')
 
 warnings.filterwarnings('error')
 
 xS = Symbol('x')
+
+
 
 A = np.array([[3,5,9,4],[0,2,1,5],[0,3,2,3],[0,9,7,4]], dtype = float)
 B = np.array([7,1,6,8], dtype = float)
